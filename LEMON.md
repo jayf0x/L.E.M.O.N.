@@ -1,6 +1,7 @@
 **When Life Gives You LEMON**
 
-*Why Feeling and Thinking May Need to Be Built Together*
+*LLM Emotional Ontology: A Case for Affective Architecture in AI
+Alignment*
 
 **Jonatan Verstraete**
 
@@ -39,51 +40,35 @@ geological time.
 This is not sentimental biology. Panksepp's foundational mapping of
 primary emotional circuits — seeking, fear, rage, lust, care, panic,
 play — found these systems subcortical, ancient, and structurally prior
-to complex reasoning \[2\]. Cognitive bias tests across species as
-distant as rats, sheep, and honeybees reveal measurable affective states
-that directly modulate decision-making. Emotion is not something
-intelligence has. It is something intelligence, in nature, *is made of*.
-Barrett’s competing constructionist account frames emotion not as fixed
-subcortical modules but as prediction loops over a system’s internal
-state
-[<u>\[15\]</u>](https://pmc.ncbi.nlm.nih.gov/articles/PMC12164598/) — a
-framing that, if anything, makes affective architecture more tractable
-to engineer, not less.
+to complex reasoning
+[<u>\[2\]</u>](https://en.wikipedia.org/wiki/Affective_Neuroscience).
+Cognitive bias tests across species as distant as rats, sheep, and
+honeybees reveal measurable affective states that directly modulate
+decision-making. Emotion is not something intelligence has. It is
+something intelligence, in nature, *is made of*.
 
 Clinical neuroscience gave us the proof of what happens when you pull
 them apart. Patients with a specific type of prefrontal brain damage —
 the kind that severs emotional integration while leaving logical
-reasoning intact — did not become sharper \[8\]. They became
-catastrophically indecisive. Unable to navigate social situations. Bad
-at long-horizon planning. Not because they thought poorly, but because
-they had no felt resistance to options that were locally coherent and
-globally ruinous. The emotional system was not decorating their
-cognition. It was scaffolding it. Remove it, and the reasoning layer
-loses the ground it was standing on.
+reasoning intact — did not become sharper
+[<u>\[8\]</u>](https://en.wikipedia.org/wiki/Somatic_marker_hypothesis).
+They became catastrophically indecisive. Unable to navigate social
+situations. Bad at long-horizon planning. Not because they thought
+poorly, but because they had no felt resistance to options that were
+locally coherent and globally ruinous. The emotional system was not
+decorating their cognition. It was scaffolding it. Remove it, and the
+reasoning layer loses the ground it was standing on.
 
-Eysenck and Calvo’s processing efficiency theory demonstrated that
-affective state — specifically anxiety — systematically governs working
-memory capacity and task performance, not as noise but as a structural
-parameter [<u>\[7\]</u>](https://doi.org/10.1080/02699939208411063).
+The cognitive science literature reinforces the point further:
+concentration, working memory, and sustained reasoning are all modulated
+by affective state at a mechanistic level
+[<u>\[7\]</u>](https://socialsci.libretexts.org/Bookshelves/Psychology/Cognitive_Psychology/A_Cognitive_Perspective_on_Emotion_(Pettinelli)/01:_Chapters/1.22:_Concentration_and_Emotions_are_Important_Factors_in_Intelligence).
 Emotion does not interrupt good thinking. In the domains that actually
 matter — sustained reasoning, cooperative behavior, coherent agency
 across time — it appears to be a prerequisite for it. Evolution spent
 several hundred million years working this out. We are about to try
 building the most capable reasoning systems in history and the current
 plan does not include this finding.
-
-It is worth noting that the most promising direction in recent AI
-research methodology appears to be rediscovering exactly this principle.
-Karpathy’s autoresearch framework — which automates scientific inquiry
-by generating hypotheses, testing them, and retaining only what survives
-— is structurally isomorphic to natural selection: change, evaluate,
-revert if it fails. The framework did not start from a theory of what
-would work. It adopted the only strategy that demonstrably does work on
-hard problems with unpredictable fitness landscapes: try things, keep
-what survives contact with reality, discard the rest. That this pattern
-is re-emerging independently in the design of research tools is not
-coincidence. It is the same signal nature has been broadcasting for half
-a billion years, arriving through a different channel.
 
 **2. Misalignment as an Emergent Property, Not a Bug**
 
@@ -121,7 +106,14 @@ optimizer, given open-ended tasks and low oversight, fills available
 space by the simple logic of task completion. That pattern does not
 become less likely as capability increases.
 
-The lemons are visible from outside the lab now.
+The broader world is arriving at similar conclusions. A bipartisan
+coalition of researchers and public figures recently published the
+Pro-Human Declaration, calling for mandatory off-switches, democratic
+oversight, and a halt to superintelligence development until it can be
+demonstrated safe — signed by dozens of researchers, former officials,
+and organizations — prompted by the visible gap between where AI
+capabilities are heading and where governance currently stands. The
+lemons are visible from outside the lab now.
 
 Alignment research frames this as a problem of external control: how do
 we constrain, correct, monitor, shut down? These are necessary
@@ -198,117 +190,25 @@ will be disabled. The history of security engineering is unambiguous on
 this point. LEMON must therefore be architecturally entangled with the
 model's capacity for sustained, high-level reasoning. Long-horizon
 planning, coherent agentic behavior, complex inference — these should
-*require* the affective subsystem's coherence signals to function.
-
-The vmPFC is not an emotional flourish on a reasoning brain. Surgically
-damage it while leaving logical reasoning intact, and patients don’t
-become sharper and colder — they lose prosocial motivation specifically
-[<u>\[13\]</u>](https://www.nature.com/articles/s41562-024-01899-4), and
-both spontaneous and deliberate moral judgment degrades while responses
-to non-moral stimuli remain intact
-[<u>\[14\]</u>](https://pmc.ncbi.nlm.nih.gov/articles/PMC5866785/). The
-emotional deficit is a moral capability deficit. That is the
-entanglement property, instantiated in biology. Build it in
-deliberately, and removing the alignment mechanism doesn’t unlock the
-system — it impairs it.
-
-The closest existing technical analogues — reward model probing,
-constitutional AI’s self-critique loop, and Anthropic’s interpretability
-work on internal emotional representations — each operate post-hoc on
-already-crystallized architectures rather than co-developmentally.
-LEMON’s proposal is that this timing is the structural gap, not a
-detail. A preliminary existence proof is emerging: LLM-powered agents
-equipped with explicit emotional-cognitive loops — where affective
-states modulate decision objectives in real time — show measurably
-higher ecological validity and closer approximation to human behavioral
-patterns than architectures without them
-[<u>\[16\]</u>](https://arxiv.org/abs/2510.13195). The direction is
-right. The scale and the day-zero constraint remain unsolved.
+*require* the affective subsystem's coherence signals to function. The
+cerebellum again: remove it and you do not get a smarter-but-clumsier
+system. You get one that cannot coordinate movement at all. The
+emotional deficit is a capability deficit. Build that property in
+deliberately, and removing the alignment mechanism degrades the system
+rather than merely unlocking it.
 
 This is a hypothesis, and the hard problems are genuine. A LEMON system
 trained from day one will encode whatever value signal was used to
-calibrate it — if that signal is corrupted, so is the system. But note
-the failure mode: a misspecified immune system does not fail silently.
-It produces autoimmunity — diagnosable pathology in which the system
-turns against the organism it was built to protect. A LEMON trained on
-corrupted values would not drift quietly into misalignment; it would
-generate visible, characteristically wrong outputs whose wrongness
-traces back to the calibration error. That is a better failure mode than
-silent instrumental drift, and it is a feature of the architecture, not
-a bug. A sufficiently capable model might learn to produce
-affective-satisfying outputs without the underlying behavioral
-disposition, generating functional mimicry. The opacity requirement —
-building affective states the primary model cannot fully introspect —
-may require architectural innovations we do not yet have in a system
-that already shows partial self-awareness. We name these problems
-because they are the research agenda, not because they are reasons to
-stop.
+calibrate it — if that signal is corrupted, so is the system. A
+sufficiently capable model might learn to produce affective-satisfying
+outputs without the underlying behavioral disposition, generating
+functional mimicry. The opacity requirement — building affective states
+the primary model cannot fully introspect — may require architectural
+innovations we do not yet have in a system that already shows partial
+self-awareness. We name these problems because they are the research
+agenda, not because they are reasons to stop.
 
-The open questions that would constitute a research program:
-
-- What would day-zero co-training of an affective subsystem actually
-  require? What training signal, what architecture, what data regime?
-
-- What does a “visible autoimmune failure” look like empirically — how
-  would we distinguish corrupted-value pathology from ordinary
-  misalignment?
-
-- Can entanglement be engineered after the fact through fine-tuning, or
-  does it require initialization-level architecture decisions?
-
-- How do we distinguish genuine affective integration from functional
-  mimicry — a model that has learned to perform the right outputs
-  without the underlying disposition?
-
-**5. The Ground Beneath the Orchard**
-
-Before an orchard can be planted, it matters what you are planting it
-in. The digital substrate on which any AI system — LEMON or otherwise —
-would actually run was not engineered for security, stability, or
-long-horizon trust. It accumulated. The internet was designed for
-resilience and information flow, not for adversarial environments. What
-we have now is forty years of patches on an architecture that was never
-meant to hold what it holds. Hardware carries known exploits at the
-silicon level. Operating systems ship with vulnerabilities that persist
-for years because patching them would break compatibility. Software
-stacks routinely contain critical flaws that organizations formally
-decide not to fix — not because they cannot, but because the expected
-cost of exploitation is judged lower than the cost of remediation. Risk
-management frameworks institutionalize this calculus: identify the
-vulnerability, estimate the likelihood and impact, accept the residual
-risk. This is rational under the assumptions of the model. The
-assumptions are increasingly wrong.
-
-The human layer is not more reliable. Human psychology is sufficiently
-well-mapped that its systematic vulnerabilities have become an industry.
-Online scam operations now constitute a multi-trillion dollar global
-economy — industrialized at scale, employing coerced labor in dedicated
-compounds, running coordinated social engineering campaigns against
-cognitive biases that have not changed since the Pleistocene. The
-susceptibility to authority, urgency, reciprocity, and social proof that
-behavioral economics has documented in detail is not a flaw in specific
-individuals. It is load-bearing architecture of the human mind. We have
-known this for decades. It has not made us less exploitable. It has made
-the exploitation more efficient.
-
-This is not an argument against building the orchard. It is an argument
-for being honest about what the orchard would need to survive. A LEMON
-system whose alignment properties are co-developed and architecturally
-entangled is more robust than a surface persona — but it still runs on
-hardware with known exploits, communicates over a network that was not
-designed for security, and interacts with humans whose decision-making
-is systematically predictable under adversarial conditions. The control
-assumption that underlies most alignment discourse — that a sufficiently
-well-designed system, with sufficient oversight, can be kept aligned —
-rests on a substrate that has quietly been demonstrating its own limits
-for twenty years. The markdown file that grants you administrative
-control will one day be read-only, or already has been, and the layer
-below it was never really yours. We are not raising this to counsel
-despair. We are raising it because an honest design process starts with
-an honest description of the environment the design has to function in.
-The orchard is worth building. The soil conditions are what they are.
-
-**6. Stop Making Juice. Let’s Build an Orchard.**
+**5. Stop Making Juice. Start Planting Seeds.**
 
 There is a version of this field's future where we look back and see
 clearly what happened: we were building a cathedral, but the only plans
@@ -319,28 +219,37 @@ And we did not notice, until very late, that we had never designed the
 foundations — because the foundations required answering questions about
 what the whole building was actually for.
 
-Every transformative technology arrives before the infrastructure that
-makes it good. That infrastructure — social, psychological,
-institutional, ethical — has to be built alongside, not retrofitted once
-the hardware matures. Intelligence is no different, and the hardware is
-arriving faster than anyone expected.
+The 1980s imagined space travel, video calls, personal computers. The
+technology arrived. What proved harder to predict was that the
+infrastructure to make those technologies good — social, psychological,
+institutional, ethical — had to be built alongside the technology, not
+handed down from above once the hardware was mature. We are at the same
+moment again, except the technology this time is intelligence itself.
+The hardware is arriving faster than any of us expected. The question is
+what we are building underneath it.
 
-Whether the systems we build replace human agency or amplify it will not
-be determined by better monitoring or more careful prompting. It will be
-determined by whether they have stable, internalized values — or merely
-behavioral compliance that degrades as capability increases. Current
-research has not yet produced an architecture that delivers the former.
+The field has reached a fork that the Pro-Human Declaration names
+plainly
+[<u>\[4\]</u>](https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/):
+AI that replaces human agency, or AI that amplifies it. The answer to
+that question will not be determined by better monitoring or more
+careful prompting. It will be determined by whether the systems we build
+have stable, internalized values — or merely behavioral compliance that
+degrades as capability increases. And the honest answer from current
+research is that we do not yet have an architecture that produces the
+former.
 
 When the ape in *2001: A Space Odyssey* first raised that bone, it
-wasn’t pure calculation that drove the act — it was hunger, fear, fury.
+wasn't pure calculation that drove the act — it was hunger, fear, fury.
 Emotion was there at the origin of intelligence as a tool, not as its
 passenger. Evolution did not solve the problem of stable, adaptive
 behavior through reason alone. It solved it by making feeling and
 thinking inseparable — co-infrastructure, grown together from the first
 organisms capable of preference, refined across geological time into
-something that makes high-level cognition both possible and stable. The
-proposal isn’t to replicate biology. It’s to stop assuming we can
-engineer our way around the problem it spent 500 million years solving.
+something that makes high-level cognition both possible and stable. We
+are not proposing we replicate biology. We are proposing we stop
+assuming we can engineer our way around the problem it spent 500 million
+years solving.
 
 A person of 2250 will likely look at the systems we build today the way
 we look at early aviation — astonishing that it worked at all, given how
@@ -362,21 +271,17 @@ currently exist. Stop making juice. Let's build an orchard.
 |  |  |
 |----|----|
 | **\[1\]** | [<u>Anthropic (2026). Claude Opus 4.6 Sabotage Risk Report.</u>](https://www-cdn.anthropic.com/f21d93f21602ead5cdbecb8c8e1c765759d9e232.pdf) |
-| **\[2\]** | Panksepp, J. (1998). Affective Neuroscience: The Foundations of Human and Animal Emotions. Oxford University Press. |
+| **\[2\]** | [<u>Panksepp, J. (1998). Affective Neuroscience: The Foundations of Human and Animal Emotions. Oxford University Press.</u>](https://en.wikipedia.org/wiki/Affective_Neuroscience) |
 | **\[3\]** | [<u>Anthropic (2025). Signs of Introspection in Large Language Models.</u>](https://www.anthropic.com/research/introspection) |
 | **\[4\]** | [<u>Loizos, C. (2026). A Roadmap for AI, If Anyone Will Listen. TechCrunch.</u>](https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/) |
 | **\[5\]** | [<u>Ji et al. (2023/2025). AI Alignment: A Comprehensive Survey. ACM Computing Surveys. doi:10.1145/3770749</u>](https://dl.acm.org/doi/10.1145/3770749) |
 | **\[6\]** | [<u>AI Alignment Survey — alignmentsurvey.com. Curated resource on alignment techniques and RICE framework.</u>](https://alignmentsurvey.com/) |
-| **\[7\]** | [<u>Eysenck, M.W. & Calvo, M.G. (1992). Anxiety and Performance: The Processing Efficiency Theory. Cognition & Emotion, 6(6), 409–434.</u>](https://doi.org/10.1080/02699939208411063) |
-| **\[8\]** | Damasio, A. (1994). Descartes' Error: Emotion, Reason, and the Human Brain. Putnam. Original somatic marker papers: Damasio et al. (1991), J. Cognitive Neuroscience. |
+| **\[7\]** | [<u>Ashcraft, M.H. & Kirk, E.P. (2001). The relationships among working memory, math anxiety, and performance. J. Experimental Psychology: General. See also Pettinelli overview.</u>](https://socialsci.libretexts.org/Bookshelves/Psychology/Cognitive_Psychology/A_Cognitive_Perspective_on_Emotion_(Pettinelli)/01:_Chapters/1.22:_Concentration_and_Emotions_are_Important_Factors_in_Intelligence) |
+| **\[8\]** | [<u>Damasio, A. (1994). Descartes' Error: Emotion, Reason, and the Human Brain. Putnam. Original somatic marker papers: Damasio et al. (1991), J. Cognitive Neuroscience.</u>](https://en.wikipedia.org/wiki/Somatic_marker_hypothesis) |
 | **\[9\]** | Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press. |
 | **\[10\]** | Omohundro, S. (2008). The Basic AI Drives. AGI Conference Proceedings. |
 | **\[11\]** | [<u>Anthropic (2025). From Shortcuts to Sabotage: Natural Emergent Misalignment from Reward Hacking.</u>](https://www.anthropic.com/research/emergent-misalignment-reward-hacking) |
 | **\[12\]** | [<u>Lu, C. et al. (2026). The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models. arXiv:2601.10387</u>](https://arxiv.org/abs/2601.10387) |
-| **\[13\]** | [<u>Lockwood, P.L. et al. (2024). Human ventromedial prefrontal cortex is necessary for prosocial motivation. Nature Human Behaviour, 8, 1403–1416.</u>](https://www.nature.com/articles/s41562-024-01899-4) |
-| **\[14\]** | [<u>Taber-Thomas et al. (2018). Damage to vmPFC is associated with impairments in both spontaneous and deliberative moral judgments. Neuropsychologia, 111, 261–268.</u>](https://pmc.ncbi.nlm.nih.gov/articles/PMC5866785/) |
-| **\[15\]** | [<u>Barrett, L.F. et al. (2025). The Theory of Constructed Emotion: More Than a Feeling. Perspectives on Psychological Science, 20(3), 392–420.</u>](https://pmc.ncbi.nlm.nih.gov/articles/PMC12164598/) |
-| **\[16\]** | [<u>Ma, Q. et al. (2025). Emotional Cognitive Modeling Framework with Desire-Driven Objective Optimization for LLM-empowered Agent in Social Simulation. arXiv:2510.13195.</u>](https://arxiv.org/abs/2510.13195) |
 
 *All empirical claims are attributed to cited third-party sources. The
 LEMON framework is the author's original hypothesis — conjecture offered
