@@ -44,12 +44,6 @@ to complex reasoning \[2\]. Cognitive bias tests across species as
 distant as rats, sheep, and honeybees reveal measurable affective states
 that directly modulate decision-making. Emotion is not something
 intelligence has. It is something intelligence, in nature, *is made of*.
-Barrett’s competing constructionist account frames emotion not as fixed
-subcortical modules but as prediction loops over a system’s internal
-state
-[<u>\[15\]</u>](https://pmc.ncbi.nlm.nih.gov/articles/PMC12164598/) — a
-framing that, if anything, makes affective architecture more tractable
-to engineer, not less.
 
 Clinical neuroscience gave us the proof of what happens when you pull
 them apart. Patients with a specific type of prefrontal brain damage —
@@ -195,18 +189,6 @@ model's capacity for sustained, high-level reasoning. Long-horizon
 planning, coherent agentic behavior, complex inference — these should
 *require* the affective subsystem's coherence signals to function.
 
-The vmPFC is not an emotional flourish on a reasoning brain. Surgically
-damage it while leaving logical reasoning intact, and patients don’t
-become sharper and colder — they lose prosocial motivation specifically
-[<u>\[13\]</u>](https://www.nature.com/articles/s41562-024-01899-4), and
-both spontaneous and deliberate moral judgment degrades while responses
-to non-moral stimuli remain intact
-[<u>\[14\]</u>](https://pmc.ncbi.nlm.nih.gov/articles/PMC5866785/). The
-emotional deficit is a moral capability deficit. That is the
-entanglement property, instantiated in biology. Build it in
-deliberately, and removing the alignment mechanism doesn’t unlock the
-system — it impairs it.
-
 The closest existing technical analogues — reward model probing,
 constitutional AI’s self-critique loop, and Anthropic’s interpretability
 work on internal emotional representations — each operate post-hoc on
@@ -304,11 +286,11 @@ currently exist. Stop making juice. Let's build an orchard.
 | **\[9\]** | Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press. |
 | **\[10\]** | Omohundro, S. (2008). The Basic AI Drives. AGI Conference Proceedings. |
 | **\[11\]** | [<u>Anthropic (2025). From Shortcuts to Sabotage: Natural Emergent Misalignment from Reward Hacking.</u>](https://www.anthropic.com/research/emergent-misalignment-reward-hacking) |
-| **\[12\]** | [<u>Lu, C. et al. (2026). The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models. arXiv:2601.10387</u>](https://arxiv.org/abs/2601.10387) |
 | **\[13\]** | [<u>Lockwood, P.L. et al. (2024). Human ventromedial prefrontal cortex is necessary for prosocial motivation. Nature Human Behaviour, 8, 1403–1416.</u>](https://www.nature.com/articles/s41562-024-01899-4) |
 | **\[14\]** | [<u>Taber-Thomas et al. (2018). Damage to vmPFC is associated with impairments in both spontaneous and deliberative moral judgments. Neuropsychologia, 111, 261–268.</u>](https://pmc.ncbi.nlm.nih.gov/articles/PMC5866785/) |
 | **\[15\]** | [<u>Barrett, L.F. et al. (2025). The Theory of Constructed Emotion: More Than a Feeling. Perspectives on Psychological Science, 20(3), 392–420.</u>](https://pmc.ncbi.nlm.nih.gov/articles/PMC12164598/) |
 | **\[16\]** | [<u>Ma, Q. et al. (2025). Emotional Cognitive Modeling Framework with Desire-Driven Objective Optimization for LLM-empowered Agent in Social Simulation. arXiv:2510.13195.</u>](https://arxiv.org/abs/2510.13195) |
+| **\[12\]** | [<u>Lu, C. et al. (2026). The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models. arXiv:2601.10387</u>](https://arxiv.org/abs/2601.10387) |
 
 *All empirical claims are attributed to cited third-party sources. The
 LEMON framework is the author's original hypothesis — conjecture offered
