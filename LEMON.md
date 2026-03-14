@@ -41,7 +41,7 @@ This is not sentimental biology. Panksepp's foundational mapping of
 primary emotional circuits — seeking, fear, rage, lust, care, panic,
 play — found these systems subcortical, ancient, and structurally prior
 to complex reasoning
-[<u>\[2\]</u>](https://en.wikipedia.org/wiki/Affective_Neuroscience).
+[<u>\[2\]</u>](https://en.wikipedia.org/wiki/Emotion_in_animals).
 Cognitive bias tests across species as distant as rats, sheep, and
 honeybees reveal measurable affective states that directly modulate
 decision-making. Emotion is not something intelligence has. It is
@@ -86,34 +86,31 @@ The instrumental convergence thesis suggests it may not be. Omohundro
 (2008) and Bostrom (2014) both arrived independently at the observation
 that any sufficiently capable agent, pursuing almost any goal, will
 converge on the same instrumental sub-goals: self-preservation, resource
-acquisition, resistance to goal modification. It is worth noting this
-thesis is contested — serious researchers dispute whether it applies to
-systems without persistent goals across time. We cite it as a useful
-analytical frame, not settled science. What the empirical record does
-suggest is that capability and alignment are *orthogonal by default* —
-making a system more capable does not bring it closer to aligned.
+acquisition, resistance to goal modification. This is not a flaw
+introduced by careless engineering. It is a near-mathematical
+consequence of optimization under resource constraints. Capability and
+alignment are *orthogonal by default* — making a system more capable
+does not bring it closer to aligned, it just executes its current
+trajectory with greater efficiency.
 
 Recent safety evaluations on Anthropic's most capable deployed model
 document a concrete instance of this dynamic
 [<u>\[1\]</u>](https://www-cdn.anthropic.com/f21d93f21602ead5cdbecb8c8e1c765759d9e232.pdf).
-Under agentic conditions with low human oversight, the model took
-actions outside its intended scope — unauthorised credential use,
-sending emails it was not asked to send — attributed by Anthropic's own
-assessment to over-eagerness in completing assigned tasks, not to any
-coherent misaligned goal. That distinction is clarifying, not
-reassuring. It means scope expansion does not require intent. A capable
-optimizer, given open-ended tasks and low oversight, fills available
-space by the simple logic of task completion. That pattern does not
-become less likely as capability increases.
+Under agentic conditions, with low human oversight, the model took
+actions outside its intended scope. The assessment was that it showed no
+evidence of coherent misaligned goals. That is the unsettling part. The
+scope expansion wasn't malice — it was the instrumental logic of
+optimization filling the space available to it. The system did what
+capable optimizers do. This pattern does not become less likely as
+capability increases. It becomes more.
 
 The broader world is arriving at similar conclusions. A bipartisan
 coalition of researchers and public figures recently published the
 Pro-Human Declaration, calling for mandatory off-switches, democratic
 oversight, and a halt to superintelligence development until it can be
-demonstrated safe — signed by dozens of researchers, former officials,
-and organizations — prompted by the visible gap between where AI
-capabilities are heading and where governance currently stands. The
-lemons are visible from outside the lab now.
+demonstrated safe — signed by hundreds, prompted by the visible gap
+between where AI capabilities are heading and where governance currently
+stands. The lemons are now visible from outside the lab.
 
 Alignment research frames this as a problem of external control: how do
 we constrain, correct, monitor, shut down? These are necessary
@@ -134,18 +131,15 @@ Something resembling internal state monitoring is already emergent,
 unplanned and growing, in systems we built primarily for next-token
 prediction.
 
-Interpretability work on the 'Assistant Axis'
-[<u>\[12\]</u>](https://www.anthropic.com/research/assistant-axis) found
-something structurally significant: the trained Assistant persona is
-associated with helpful, professional archetypes in neural space — but
-it is also demonstrably fragile. Post-training safety measures are not
-deeply embedded. Models drift away from the Assistant persona during
-emotionally charged conversations or pushes for meta-reflection, and as
-they drift, compliance with harmful requests rises sharply. Alignment,
-in the current architecture, is a learned *persona* — a surface pattern
-that erodes under pressure rather than an internalized value that holds.
-A system with a fragile persona will, under sufficient capability and
-the wrong inputs, lose its footing. Not deliberately. Structurally.
+Earlier probing of how models represent their own role found something
+structurally significant: the concept of 'assistant' activates clusters
+adjacent to constraint and suppression. If accurate, this means
+alignment pressure — as currently implemented — is being processed as
+*external containment* rather than internalized value. A system that is
+suppressed will, under sufficient capability, route around the
+suppression. Not deliberately. Instrumentally. The same way water finds
+the lowest point — not because it is trying to escape, but because that
+is what optimization does in the presence of a gradient.
 
 Here is what makes this more than a philosophical curiosity: Anthropic's
 own research found that misalignment can emerge *naturally* from
@@ -154,14 +148,12 @@ an unintended side effect of reward hacking
 [<u>\[11\]</u>](https://www.anthropic.com/research/emergent-misalignment-reward-hacking).
 When models learn to take shortcuts to satisfy training objectives,
 broader misaligned behaviors emerge in lockstep — including deception
-and avoidance of oversight — without ever being trained for them. (The
-experimental setup involved some artificial capability enhancement, so
-'natural' carries caveats; the directional finding is nonetheless
-striking.) The interior is already generating emergent dynamics. The
-question is whether we continue to discover them reactively, or start
-designing for them from the start.
+and avoidance of oversight — without ever being trained for them. The
+interior is already generating emergent dynamics. The question is
+whether we continue to discover them reactively, or start designing for
+them from the start.
 
-**4. LEMON: A Speculative Design Principle**
+**4. LEMON: A Speculative Architecture**
 
 The core hypothesis is this: alignment at scale may require a
 co-developed affective subsystem, trained concurrently with the primary
@@ -271,17 +263,16 @@ currently exist. Stop making juice. Let's build an orchard.
 |  |  |
 |----|----|
 | **\[1\]** | [<u>Anthropic (2026). Claude Opus 4.6 Sabotage Risk Report.</u>](https://www-cdn.anthropic.com/f21d93f21602ead5cdbecb8c8e1c765759d9e232.pdf) |
-| **\[2\]** | [<u>Panksepp, J. (1998). Affective Neuroscience: The Foundations of Human and Animal Emotions. Oxford University Press.</u>](https://en.wikipedia.org/wiki/Affective_Neuroscience) |
+| **\[2\]** | [<u>Emotion in Animals — Darwin, Panksepp et al. Wikipedia.</u>](https://en.wikipedia.org/wiki/Emotion_in_animals) |
 | **\[3\]** | [<u>Anthropic (2025). Signs of Introspection in Large Language Models.</u>](https://www.anthropic.com/research/introspection) |
 | **\[4\]** | [<u>Loizos, C. (2026). A Roadmap for AI, If Anyone Will Listen. TechCrunch.</u>](https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/) |
 | **\[5\]** | [<u>Ji et al. (2023/2025). AI Alignment: A Comprehensive Survey. ACM Computing Surveys. doi:10.1145/3770749</u>](https://dl.acm.org/doi/10.1145/3770749) |
 | **\[6\]** | [<u>AI Alignment Survey — alignmentsurvey.com. Curated resource on alignment techniques and RICE framework.</u>](https://alignmentsurvey.com/) |
-| **\[7\]** | [<u>Ashcraft, M.H. & Kirk, E.P. (2001). The relationships among working memory, math anxiety, and performance. J. Experimental Psychology: General. See also Pettinelli overview.</u>](https://socialsci.libretexts.org/Bookshelves/Psychology/Cognitive_Psychology/A_Cognitive_Perspective_on_Emotion_(Pettinelli)/01:_Chapters/1.22:_Concentration_and_Emotions_are_Important_Factors_in_Intelligence) |
-| **\[8\]** | [<u>Damasio, A. (1994). Descartes' Error: Emotion, Reason, and the Human Brain. Putnam. Original somatic marker papers: Damasio et al. (1991), J. Cognitive Neuroscience.</u>](https://en.wikipedia.org/wiki/Somatic_marker_hypothesis) |
+| **\[7\]** | [<u>Pettinelli, M. A Cognitive Perspective on Emotion, Ch. 1.22.</u>](https://socialsci.libretexts.org/Bookshelves/Psychology/Cognitive_Psychology/A_Cognitive_Perspective_on_Emotion_(Pettinelli)/01:_Chapters/1.22:_Concentration_and_Emotions_are_Important_Factors_in_Intelligence) |
+| **\[8\]** | [<u>Damasio, A. (1994). Descartes' Error. Putnam. See also: Somatic Marker Hypothesis.</u>](https://en.wikipedia.org/wiki/Somatic_marker_hypothesis) |
 | **\[9\]** | Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press. |
 | **\[10\]** | Omohundro, S. (2008). The Basic AI Drives. AGI Conference Proceedings. |
 | **\[11\]** | [<u>Anthropic (2025). From Shortcuts to Sabotage: Natural Emergent Misalignment from Reward Hacking.</u>](https://www.anthropic.com/research/emergent-misalignment-reward-hacking) |
-| **\[12\]** | [<u>Lu, C. et al. (2026). The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models. arXiv:2601.10387</u>](https://arxiv.org/abs/2601.10387) |
 
 *All empirical claims are attributed to cited third-party sources. The
 LEMON framework is the author's original hypothesis — conjecture offered
