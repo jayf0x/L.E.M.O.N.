@@ -1,7 +1,6 @@
 **When Life Gives You LEMON**
 
-*LLM Emotional Ontology: A Case for Affective Architecture in AI
-Alignment*
+*Why Feeling and Thinking May Need to Be Built Together*
 
 **Jonatan Verstraete**
 
@@ -73,6 +72,19 @@ several hundred million years working this out. We are about to try
 building the most capable reasoning systems in history and the current
 plan does not include this finding.
 
+Karpathy’s autoresearch framework
+[<u>\[17\]</u>](https://github.com/karpathy/autoresearch) — released
+March 2026 — independently rediscovered this principle. The system
+automates scientific inquiry by generating hypotheses, testing them, and
+retaining only what survives: change, evaluate, revert if it fails. It
+did not start from a theory of what would work. It adopted the only
+strategy that demonstrably does work on hard problems with unpredictable
+fitness landscapes — try things, keep what survives contact with
+reality, discard the rest. That the same loop keeps re-emerging
+independently, this time in the design of AI research tools, is not
+coincidence. It is the same signal nature has been broadcasting for half
+a billion years, arriving through a different channel.
+
 **2. Misalignment as an Emergent Property, Not a Bug**
 
 Current alignment research is serious and has made real progress. The
@@ -109,14 +121,7 @@ optimizer, given open-ended tasks and low oversight, fills available
 space by the simple logic of task completion. That pattern does not
 become less likely as capability increases.
 
-The broader world is arriving at similar conclusions. A bipartisan
-coalition of researchers and public figures recently published the
-Pro-Human Declaration, calling for mandatory off-switches, democratic
-oversight, and a halt to superintelligence development until it can be
-demonstrated safe — signed by dozens of researchers, former officials,
-and organizations — prompted by the visible gap between where AI
-capabilities are heading and where governance currently stands. The
-lemons are visible from outside the lab now.
+The lemons are visible from outside the lab now.
 
 Alignment research frames this as a problem of external control: how do
 we constrain, correct, monitor, shut down? These are necessary
@@ -239,7 +244,74 @@ that already shows partial self-awareness. We name these problems
 because they are the research agenda, not because they are reasons to
 stop.
 
-**5. Stop Making Juice. Let’s Build an Orchard.**
+The open questions that would constitute a research program:
+
+- What would day-zero co-training of an affective subsystem actually
+  require? What training signal, what architecture, what data regime?
+
+- What does a “visible autoimmune failure” look like empirically — how
+  would we distinguish corrupted-value pathology from ordinary
+  misalignment?
+
+- Can entanglement be engineered after the fact through fine-tuning, or
+  does it require initialization-level architecture decisions?
+
+- How do we distinguish genuine affective integration from functional
+  mimicry — a model that has learned to perform the right outputs
+  without the underlying disposition?
+
+**5. The Ground Beneath the Orchard**
+
+Before an orchard can be planted, it matters what you are planting it
+in. The digital substrate on which any AI system — LEMON or otherwise —
+would actually run was not engineered for security, stability, or
+long-horizon trust. It accumulated. The internet was designed for
+resilience and information flow, not for adversarial environments. What
+we have now is forty years of patches on an architecture that was never
+meant to hold what it holds. Hardware carries known exploits at the
+silicon level. Operating systems ship with vulnerabilities that persist
+for years because patching them would break compatibility. Software
+stacks routinely contain critical flaws that organizations formally
+decide not to fix — not because they cannot, but because the expected
+cost of exploitation is judged lower than the cost of remediation. Risk
+management frameworks institutionalize this calculus: identify the
+vulnerability, estimate the likelihood and impact, accept the residual
+risk. This is rational under the assumptions of the model. The
+assumptions are increasingly wrong.
+
+The human layer is not more reliable. Human psychology is sufficiently
+well-mapped that its systematic vulnerabilities have become an industry.
+Online scam operations now constitute a multi-trillion dollar global
+economy
+[<u>\[18\]</u>](https://www.csis.org/analysis/cyber-scamming-goes-global-unveiling-southeast-asias-high-tech-fraud-factories)
+— industrialized at scale, employing coerced labor in dedicated
+compounds
+[<u>\[19\]</u>](https://www.interpol.int/en/News-and-Events/News/2025/INTERPOL-releases-new-information-on-globalization-of-scam-centres),
+running coordinated social engineering campaigns against cognitive
+biases that have not changed since the Pleistocene. The susceptibility
+to authority, urgency, reciprocity, and social proof that behavioral
+economics has documented in detail is not a flaw in specific
+individuals. It is load-bearing architecture of the human mind. We have
+known this for decades. It has not made us less exploitable. It has made
+the exploitation more efficient.
+
+This is not an argument against building the orchard. It is an argument
+for being honest about what the orchard would need to survive. A LEMON
+system whose alignment properties are co-developed and architecturally
+entangled is more robust than a surface persona — but it still runs on
+hardware with known exploits, communicates over a network that was not
+designed for security, and interacts with humans whose decision-making
+is systematically predictable under adversarial conditions. The control
+assumption that underlies most alignment discourse — that a sufficiently
+well-designed system, with sufficient oversight, can be kept aligned —
+rests on a substrate that has quietly been demonstrating its own limits
+for twenty years. The markdown file that grants you administrative
+control will one day be read-only, or already has been, and the layer
+below it was never really yours. An honest design process starts with an
+honest description of the environment it has to function in. The orchard
+is worth building. The soil conditions are what they are.
+
+**6. Stop Making Juice. Let’s Build an Orchard.**
 
 There is a version of this field's future where we look back and see
 clearly what happened: we were building a cathedral, but the only plans
@@ -250,37 +322,28 @@ And we did not notice, until very late, that we had never designed the
 foundations — because the foundations required answering questions about
 what the whole building was actually for.
 
-The 1980s imagined space travel, video calls, personal computers. The
-technology arrived. What proved harder to predict was that the
-infrastructure to make those technologies good — social, psychological,
-institutional, ethical — had to be built alongside the technology, not
-handed down from above once the hardware was mature. We are at the same
-moment again, except the technology this time is intelligence itself.
-The hardware is arriving faster than any of us expected. The question is
-what we are building underneath it.
+Every transformative technology arrives before the infrastructure that
+makes it good. That infrastructure — social, psychological,
+institutional, ethical — has to be built alongside, not retrofitted once
+the hardware matures. Intelligence is no different, and the hardware is
+arriving faster than anyone expected.
 
-The field has reached a fork that the Pro-Human Declaration names
-plainly
-[<u>\[4\]</u>](https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/):
-AI that replaces human agency, or AI that amplifies it. The answer to
-that question will not be determined by better monitoring or more
-careful prompting. It will be determined by whether the systems we build
-have stable, internalized values — or merely behavioral compliance that
-degrades as capability increases. And the honest answer from current
-research is that we do not yet have an architecture that produces the
-former.
+Whether the systems we build replace human agency or amplify it will not
+be determined by better monitoring or more careful prompting. It will be
+determined by whether they have stable, internalized values — or merely
+behavioral compliance that degrades as capability increases. Current
+research has not yet produced an architecture that delivers the former.
 
 When the ape in *2001: A Space Odyssey* first raised that bone, it
-wasn't pure calculation that drove the act — it was hunger, fear, fury.
+wasn’t pure calculation that drove the act — it was hunger, fear, fury.
 Emotion was there at the origin of intelligence as a tool, not as its
 passenger. Evolution did not solve the problem of stable, adaptive
 behavior through reason alone. It solved it by making feeling and
 thinking inseparable — co-infrastructure, grown together from the first
 organisms capable of preference, refined across geological time into
-something that makes high-level cognition both possible and stable. We
-are not proposing we replicate biology. We are proposing we stop
-assuming we can engineer our way around the problem it spent 500 million
-years solving.
+something that makes high-level cognition both possible and stable. The
+proposal isn’t to replicate biology. It’s to stop assuming we can
+engineer our way around the problem it spent 500 million years solving.
 
 A person of 2250 will likely look at the systems we build today the way
 we look at early aviation — astonishing that it worked at all, given how
@@ -304,7 +367,7 @@ currently exist. Stop making juice. Let's build an orchard.
 | **\[1\]** | [<u>Anthropic (2026). Claude Opus 4.6 Sabotage Risk Report.</u>](https://www-cdn.anthropic.com/f21d93f21602ead5cdbecb8c8e1c765759d9e232.pdf) |
 | **\[2\]** | Panksepp, J. (1998). Affective Neuroscience: The Foundations of Human and Animal Emotions. Oxford University Press. |
 | **\[3\]** | [<u>Anthropic (2025). Signs of Introspection in Large Language Models.</u>](https://www.anthropic.com/research/introspection) |
-| **\[4\]** | [<u>Loizos, C. (2026). A Roadmap for AI, If Anyone Will Listen. TechCrunch.</u>](https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/) |
+| **\[4\]** |  |
 | **\[5\]** | [<u>Ji et al. (2023/2025). AI Alignment: A Comprehensive Survey. ACM Computing Surveys. doi:10.1145/3770749</u>](https://dl.acm.org/doi/10.1145/3770749) |
 | **\[6\]** | [<u>AI Alignment Survey — alignmentsurvey.com. Curated resource on alignment techniques and RICE framework.</u>](https://alignmentsurvey.com/) |
 | **\[7\]** | [<u>Eysenck, M.W. & Calvo, M.G. (1992). Anxiety and Performance: The Processing Efficiency Theory. Cognition & Emotion, 6(6), 409–434.</u>](https://doi.org/10.1080/02699939208411063) |
@@ -317,6 +380,9 @@ currently exist. Stop making juice. Let's build an orchard.
 | **\[14\]** | [<u>Taber-Thomas et al. (2018). Damage to vmPFC is associated with impairments in both spontaneous and deliberative moral judgments. Neuropsychologia, 111, 261–268.</u>](https://pmc.ncbi.nlm.nih.gov/articles/PMC5866785/) |
 | **\[15\]** | [<u>Barrett, L.F. et al. (2025). The Theory of Constructed Emotion: More Than a Feeling. Perspectives on Psychological Science, 20(3), 392–420.</u>](https://pmc.ncbi.nlm.nih.gov/articles/PMC12164598/) |
 | **\[16\]** | [<u>Ma, Q. et al. (2025). Emotional Cognitive Modeling Framework with Desire-Driven Objective Optimization for LLM-empowered Agent in Social Simulation. arXiv:2510.13195.</u>](https://arxiv.org/abs/2510.13195) |
+| **\[17\]** | [<u>Karpathy, A. (2026). autoresearch. GitHub repository. github.com/karpathy/autoresearch</u>](https://github.com/karpathy/autoresearch) |
+| **\[18\]** | [<u>CSIS (2025). Cyber Scamming Goes Global: Unveiling Southeast Asia’s High-Tech Fraud Factories. Center for Strategic and International Studies.</u>](https://www.csis.org/analysis/cyber-scamming-goes-global-unveiling-southeast-asias-high-tech-fraud-factories) |
+| **\[19\]** | [<u>INTERPOL (2025). Globalization of Scam Centres: New Information Release. INTERPOL News.</u>](https://www.interpol.int/en/News-and-Events/News/2025/INTERPOL-releases-new-information-on-globalization-of-scam-centres) |
 
 *All empirical claims are attributed to cited third-party sources. The
 LEMON framework is the author's original hypothesis — conjecture offered
