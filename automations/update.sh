@@ -5,6 +5,32 @@ if [[ "$(basename "$PWD")" != "L.E.M.O.N." ]]; then
   exit 1
 fi
 
+
+if git diff --quiet LEMON.docx; then
+    echo "No DOCX changes"
+    exit 0
+fi
+
+
+pandoc LEMON.docx -t gfm -o LEMON.md
+
+msg="${1:-"Update version"}"
+
+git add .
+git commit -m "$msg"
+git push origin main
+
+
+
+
+
+
+
+: """
+### Old logic for version updating
+
+
+
 iteration=1
 # iterate all older docx versions
 find ./backup/versions -name '*.docx' -type f | while IFS= read -r f; do
@@ -34,13 +60,7 @@ find ./backup/versions -name '*.docx' -type f | while IFS= read -r f; do
   git push origin main
   sleep 1
 
-
-  # # Convert to markdown
   # md="${f%.docx}.md"
-  # md=${md//versions/updated}
   # pandoc "$f" -t gfm -o "$md"
-
-
 done
-
-
+"""
