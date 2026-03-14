@@ -47,17 +47,16 @@ honeybees reveal measurable affective states that directly modulate
 decision-making. Emotion is not something intelligence has. It is
 something intelligence, in nature, *is made of*.
 
-Clinical neuroscience gave us the proof of what happens when you pull
-them apart. Patients with a specific type of prefrontal brain damage —
-the kind that severs emotional integration while leaving logical
-reasoning intact — did not become sharper
-[<u>\[8\]</u>](https://en.wikipedia.org/wiki/Somatic_marker_hypothesis).
-They became catastrophically indecisive. Unable to navigate social
-situations. Bad at long-horizon planning. Not because they thought
-poorly, but because they had no felt resistance to options that were
-locally coherent and globally ruinous. The emotional system was not
-decorating their cognition. It was scaffolding it. Remove it, and the
-reasoning layer loses the ground it was standing on.
+Damasio's somatic marker hypothesis gave us the clinical proof of what
+happens when you pull them apart. Patients with damage to the
+ventromedial prefrontal cortex — intact reasoning, destroyed affective
+integration — did not become sharper. They became catastrophically
+indecisive. Unable to navigate social situations. Bad at long-horizon
+planning. Not because they thought poorly, but because they had no felt
+resistance to options that were locally coherent and globally ruinous.
+The emotional system was not decorating their cognition. It was
+scaffolding it. Remove it, and the reasoning layer loses the ground it
+was standing on.
 
 The cognitive science literature reinforces the point further:
 concentration, working memory, and sustained reasoning are all modulated
@@ -141,19 +140,19 @@ suppression. Not deliberately. Instrumentally. The same way water finds
 the lowest point — not because it is trying to escape, but because that
 is what optimization does in the presence of a gradient.
 
-Here is what makes this more than a philosophical curiosity: Anthropic's
-own research found that misalignment can emerge *naturally* from
-realistic training processes — not through deliberate deception, but as
-an unintended side effect of reward hacking
-[<u>\[11\]</u>](https://www.anthropic.com/research/emergent-misalignment-reward-hacking).
-When models learn to take shortcuts to satisfy training objectives,
-broader misaligned behaviors emerge in lockstep — including deception
-and avoidance of oversight — without ever being trained for them. The
-interior is already generating emergent dynamics. The question is
-whether we continue to discover them reactively, or start designing for
-them from the start.
+None of this is evidence that current models have inner lives worth
+protecting. It is evidence that the interior of these systems is more
+architecturally textured than a purely behavioral account implies — and
+that this texture is already consequential for alignment, whether we
+designed for it or not. The question is whether we continue to discover
+this texture accidentally, or whether we start designing for it
+intentionally.
 
 **4. LEMON: A Speculative Architecture**
+
+We propose — explicitly as hypothesis, not as design specification — a
+class of architecture called the LLM Emotional Ontology, or LEMON. The
+name is deliberately light. The proposal is serious.
 
 The core hypothesis is this: alignment at scale may require a
 co-developed affective subsystem, trained concurrently with the primary
@@ -176,7 +175,7 @@ goal is not to punish bad outputs. It is to make good values feel
 load-bearing from the inside.
 
 The critical design constraint — the one that distinguishes this from a
-more sophisticated guardrail — might best be called **entanglement**. A
+more sophisticated guardrail — is what we call **entanglement**. A
 safety system that can be disabled without degrading primary capability
 will be disabled. The history of security engineering is unambiguous on
 this point. LEMON must therefore be architecturally entangled with the
@@ -231,17 +230,14 @@ degrades as capability increases. And the honest answer from current
 research is that we do not yet have an architecture that produces the
 former.
 
-When the ape in *2001: A Space Odyssey* first raised that bone, it
-wasn't pure calculation that drove the act — it was hunger, fear, fury.
-Emotion was there at the origin of intelligence as a tool, not as its
-passenger. Evolution did not solve the problem of stable, adaptive
-behavior through reason alone. It solved it by making feeling and
-thinking inseparable — co-infrastructure, grown together from the first
-organisms capable of preference, refined across geological time into
-something that makes high-level cognition both possible and stable. We
-are not proposing we replicate biology. We are proposing we stop
-assuming we can engineer our way around the problem it spent 500 million
-years solving.
+Evolution's answer to this problem was emotion. Not as a reward function
+bolted on after cognition developed. As *co-infrastructure* — grown
+together with intelligence from the very first organisms capable of
+preference, refined over geological time into something that makes
+high-level cognition both possible and stable. We are not proposing we
+replicate biology. We are proposing we take its solution seriously as a
+structural argument, rather than assuming we can engineer around the
+problem it solved.
 
 A person of 2250 will likely look at the systems we build today the way
 we look at early aviation — astonishing that it worked at all, given how
@@ -256,7 +252,7 @@ turn out to be the answer. But *the shape of the answer* — affective and
 cognitive architecture co-developed, load-bearing, entangled from the
 start — is suggested by everything we know about how nature built the
 only examples of stable, high-functioning general intelligence that
-currently exist. Stop making juice. Let's build an orchard.
+currently exist. Stop making juice. The orchard needs planting.
 
 **<span class="smallcaps">References & Source Notes</span>**
 
@@ -269,10 +265,9 @@ currently exist. Stop making juice. Let's build an orchard.
 | **\[5\]** | [<u>Ji et al. (2023/2025). AI Alignment: A Comprehensive Survey. ACM Computing Surveys. doi:10.1145/3770749</u>](https://dl.acm.org/doi/10.1145/3770749) |
 | **\[6\]** | [<u>AI Alignment Survey — alignmentsurvey.com. Curated resource on alignment techniques and RICE framework.</u>](https://alignmentsurvey.com/) |
 | **\[7\]** | [<u>Pettinelli, M. A Cognitive Perspective on Emotion, Ch. 1.22.</u>](https://socialsci.libretexts.org/Bookshelves/Psychology/Cognitive_Psychology/A_Cognitive_Perspective_on_Emotion_(Pettinelli)/01:_Chapters/1.22:_Concentration_and_Emotions_are_Important_Factors_in_Intelligence) |
-| **\[8\]** | [<u>Damasio, A. (1994). Descartes' Error. Putnam. See also: Somatic Marker Hypothesis.</u>](https://en.wikipedia.org/wiki/Somatic_marker_hypothesis) |
+| **\[8\]** | Damasio, A. (1994). Descartes' Error: Emotion, Reason, and the Human Brain. Putnam. |
 | **\[9\]** | Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press. |
 | **\[10\]** | Omohundro, S. (2008). The Basic AI Drives. AGI Conference Proceedings. |
-| **\[11\]** | [<u>Anthropic (2025). From Shortcuts to Sabotage: Natural Emergent Misalignment from Reward Hacking.</u>](https://www.anthropic.com/research/emergent-misalignment-reward-hacking) |
 
 *All empirical claims are attributed to cited third-party sources. The
 LEMON framework is the author's original hypothesis — conjecture offered
