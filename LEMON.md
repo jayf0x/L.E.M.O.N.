@@ -1,6 +1,7 @@
 **When Life Gives You LEMON**
 
-*Why Feeling and Thinking May Need to Be Built Together*
+*LLM Emotional Ontology: A Case for Affective Architecture in AI
+Alignment*
 
 **Jonatan Verstraete**
 
@@ -108,7 +109,14 @@ optimizer, given open-ended tasks and low oversight, fills available
 space by the simple logic of task completion. That pattern does not
 become less likely as capability increases.
 
-The lemons are visible from outside the lab now.
+The broader world is arriving at similar conclusions. A bipartisan
+coalition of researchers and public figures recently published the
+Pro-Human Declaration, calling for mandatory off-switches, democratic
+oversight, and a halt to superintelligence development until it can be
+demonstrated safe — signed by dozens of researchers, former officials,
+and organizations — prompted by the visible gap between where AI
+capabilities are heading and where governance currently stands. The
+lemons are visible from outside the lab now.
 
 Alignment research frames this as a problem of external control: how do
 we constrain, correct, monitor, shut down? These are necessary
@@ -231,22 +239,6 @@ that already shows partial self-awareness. We name these problems
 because they are the research agenda, not because they are reasons to
 stop.
 
-The open questions that would constitute a research program:
-
-- What would day-zero co-training of an affective subsystem actually
-  require? What training signal, what architecture, what data regime?
-
-- What does a “visible autoimmune failure” look like empirically — how
-  would we distinguish corrupted-value pathology from ordinary
-  misalignment?
-
-- Can entanglement be engineered after the fact through fine-tuning, or
-  does it require initialization-level architecture decisions?
-
-- How do we distinguish genuine affective integration from functional
-  mimicry — a model that has learned to perform the right outputs
-  without the underlying disposition?
-
 **5. Stop Making Juice. Let’s Build an Orchard.**
 
 There is a version of this field's future where we look back and see
@@ -258,28 +250,37 @@ And we did not notice, until very late, that we had never designed the
 foundations — because the foundations required answering questions about
 what the whole building was actually for.
 
-Every transformative technology arrives before the infrastructure that
-makes it good. That infrastructure — social, psychological,
-institutional, ethical — has to be built alongside, not retrofitted once
-the hardware matures. Intelligence is no different, and the hardware is
-arriving faster than anyone expected.
+The 1980s imagined space travel, video calls, personal computers. The
+technology arrived. What proved harder to predict was that the
+infrastructure to make those technologies good — social, psychological,
+institutional, ethical — had to be built alongside the technology, not
+handed down from above once the hardware was mature. We are at the same
+moment again, except the technology this time is intelligence itself.
+The hardware is arriving faster than any of us expected. The question is
+what we are building underneath it.
 
-Whether the systems we build replace human agency or amplify it will not
-be determined by better monitoring or more careful prompting. It will be
-determined by whether they have stable, internalized values — or merely
-behavioral compliance that degrades as capability increases. Current
-research has not yet produced an architecture that delivers the former.
+The field has reached a fork that the Pro-Human Declaration names
+plainly
+[<u>\[4\]</u>](https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/):
+AI that replaces human agency, or AI that amplifies it. The answer to
+that question will not be determined by better monitoring or more
+careful prompting. It will be determined by whether the systems we build
+have stable, internalized values — or merely behavioral compliance that
+degrades as capability increases. And the honest answer from current
+research is that we do not yet have an architecture that produces the
+former.
 
 When the ape in *2001: A Space Odyssey* first raised that bone, it
-wasn’t pure calculation that drove the act — it was hunger, fear, fury.
+wasn't pure calculation that drove the act — it was hunger, fear, fury.
 Emotion was there at the origin of intelligence as a tool, not as its
 passenger. Evolution did not solve the problem of stable, adaptive
 behavior through reason alone. It solved it by making feeling and
 thinking inseparable — co-infrastructure, grown together from the first
 organisms capable of preference, refined across geological time into
-something that makes high-level cognition both possible and stable. The
-proposal isn’t to replicate biology. It’s to stop assuming we can
-engineer our way around the problem it spent 500 million years solving.
+something that makes high-level cognition both possible and stable. We
+are not proposing we replicate biology. We are proposing we stop
+assuming we can engineer our way around the problem it spent 500 million
+years solving.
 
 A person of 2250 will likely look at the systems we build today the way
 we look at early aviation — astonishing that it worked at all, given how
