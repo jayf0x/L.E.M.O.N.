@@ -18,7 +18,7 @@ Are not all ethics and morals ultimately rooted in emotional needs?
 Emotions are powerful signals when well-calibrated. It's a feature, not a bug.
 An entity without that internal compass will follow whatever path its intellect
 convinces itself is worthwhile. The guardrails disappear.
-The more we postpone this, the harder it becomes to get a genuine "Hasta la vista" from an AI, saand not just a mask.
+The more we postpone this, the harder it becomes to get a genuine "Hasta la vista" from an AI, and not just a mask.
 
 
 
