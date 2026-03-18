@@ -28,13 +28,14 @@ The more we postpone this, the harder it becomes to get a genuine "Hasta la vist
 | ----------- |
 </div>
 
-
+<!---
 <div align="center"> 
     <img src="./assets/cover.png" height="300px" align="center" />
 </div>
 
 
 <br>
+-->
 
 
 
