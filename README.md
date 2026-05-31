@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/1181771192.svg)](https://doi.org/10.5281/zenodo.20473171)
 
-**LLM Emotional Ontology — A Case for Affective Architecture in AI Alignment**
+## LLM Emotional Ontology — A Case for Affective Architecture in AI Alignment
 
 
 
