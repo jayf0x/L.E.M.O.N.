@@ -26,7 +26,7 @@ The more we postpone this, the harder it becomes to get a genuine "Hasta la vist
 
 <div align="center">
 
-|  Read paper [in markdown](./LEMON.md) |
+|  Read paper [in markdown](./LEMON.md) or [docx](./LEMON.docx) |
 | ----------- |
 </div>
 
