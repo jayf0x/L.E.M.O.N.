@@ -1,6 +1,6 @@
 # L.E.M.O.N. 
 
-![DOI](https://zenodo.org/badge/1181771192.svg)
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20473172.svg)
 
 ## LLM Emotional Ontology — A Case for Affective Architecture in AI Alignment
 
